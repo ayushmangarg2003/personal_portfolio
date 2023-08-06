@@ -25,7 +25,7 @@
     position: absolute;
     top: 60vh;
     left: -100px;
-    animation: circle 2s linear alternate infinite;
+    animation: circle 19s linear alternate infinite;
     overflow: hidden;
 }
 
@@ -43,7 +43,7 @@
     position: absolute;
     top: 30vh;
     left: -90px;
-    animation: rectangle 19s linear  infinite alternate;
+    animation: rectangle 17s linear  infinite alternate;
 }
 
 @keyframes rectangle {
