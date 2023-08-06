@@ -1,0 +1,8 @@
+.subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    text-align: center;
+    border-bottom: 4px solid red;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

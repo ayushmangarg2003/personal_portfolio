@@ -1,0 +1,30 @@
+.tech{
+    display: flex;
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1000px) {
+    .aboutcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 2rem 0rem;
+        gap: 2rem;
+    }
+}

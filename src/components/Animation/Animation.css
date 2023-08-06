@@ -1,0 +1,53 @@
+.square {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    opacity: 0.5;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    animation: square 21s linear alternate infinite;
+
+}
+
+@keyframes square {
+    to {
+        transform: translate(calc(100vw - 15px), 70vh)
+    }
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 100);
+    opacity: 0.8;
+    position: absolute;
+    top: 60vh;
+    left: -100px;
+    animation: circle 21s linear alternate infinite;
+    overflow: hidden;
+}
+
+@keyframes circle {
+    to {
+        transform: translate(calc(100vw - 20px), -54vh)
+    }
+}
+
+.rectangle {
+    width: 90px;
+    height: 60px;
+    background-color: #4e6bff;
+    opacity: 0.6;
+    position: absolute;
+    top: 30vh;
+    left: -90px;
+    animation: rectangle 19s linear  infinite alternate;
+}
+
+@keyframes rectangle {
+    to {
+        transform: translate(55vw, calc(70vh - 60px))
+    }
+}

@@ -1,0 +1,94 @@
+.card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.card .left {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.left .tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.left .tags div {
+    background-color: #121212;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title a {
+    color: #aaaaaa;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.title span {
+    margin: 0 5px;
+}
+
+.desc {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #cdcdcd;
+}
+
+.card .right {
+    flex: 2;
+}
+
+.right a img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.right a img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 20px -15px #fff;
+}
+
+@media only screen and (max-width:750px){
+    .desc {
+        display: none;
+    }
+    .card .left{
+        flex: 3;
+    }
+    .left .tags div {
+        padding: 0.25rem 0.5rem;
+        font-weight: 600;
+        font-size: 12px;
+    }
+ }
+
+ @media only screen and (max-width:700px){
+    .card {
+      width: 95%;
+    }
+    .card .left .title {
+        font-size: 1rem;
+    }
+  }

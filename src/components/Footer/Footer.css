@@ -1,0 +1,17 @@
+.footer{
+    height: 7vh;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f6f6;
+    color: #cdcdcd;
+}
+.footer a{
+    color: #f6f6f6;
+    font-weight: 700;
+    margin-left: 5px;
+    text-decoration: none;
+}

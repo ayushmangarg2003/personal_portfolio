@@ -1,0 +1,20 @@
+.details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    padding: 0 5rem;
+    text-align: justify;
+    color: #dedede;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width:700px) {
+    .details {
+        padding: 0 1rem;
+    }
+}
+@media only screen and (max-width:550px) {
+    .details {
+        font-size: 1rem;
+    }
+}
