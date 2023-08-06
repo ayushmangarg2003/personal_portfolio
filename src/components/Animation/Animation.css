@@ -5,14 +5,14 @@
     opacity: 0.5;
     position: absolute;
     top: 60px;
-    left: -60px;
+    left: -120px;
     animation: square 21s linear alternate infinite;
-
+    overflow: hidden;
 }
 
 @keyframes square {
     to {
-        transform: translate(calc(100vw - 15px), 70vh)
+        transform: translate(95vw, 70vh)
     }
 }
 
@@ -25,13 +25,13 @@
     position: absolute;
     top: 60vh;
     left: -100px;
-    animation: circle 21s linear alternate infinite;
+    animation: circle 2s linear alternate infinite;
     overflow: hidden;
 }
 
 @keyframes circle {
     to {
-        transform: translate(calc(100vw - 20px), -54vh)
+        transform: translate(90vw, -54vh)
     }
 }
 
