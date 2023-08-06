@@ -21,11 +21,11 @@ const Certificates = [
         organisation: "Maharaja Agrasen Institute of Technology",
         link:"https://drive.google.com/file/d/12IPtkkI22CUBlWMkokg2LZOfFcv26a7H/view"
     },
-    {
-        logo:Mait,
-        title: "G20 MAIT Intra-College Hackaton",
-        organisation: "Maharaja Agrasen Institute of Technology",
-        link:"https://drive.google.com/file/d/1KfS77l8J5e6f9G_5QmzsVhrFtKXnpwaJ/view"
-    },
+    // {
+    //     logo:Mait,
+    //     title: "G20 MAIT Intra-College Hackaton",
+    //     organisation: "Maharaja Agrasen Institute of Technology",
+    //     link:"https://drive.google.com/file/d/1KfS77l8J5e6f9G_5QmzsVhrFtKXnpwaJ/view"
+    // },
 ]
 export default Certificates;
