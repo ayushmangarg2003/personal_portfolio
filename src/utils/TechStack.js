@@ -46,10 +46,6 @@ const TechStack = [
         icon: python,
         tech: "Python"
     },
-    // {
-    //     icon: react,
-    //     tech: "ReactNative"
-    // },
     {
         icon: tailwind,
         tech: "Tailwind"

@@ -2,14 +2,14 @@ import React from 'react'
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
 import ProfilePic from '../../utils/assets/ProfilePic.jpg'
 import './Home.css'
-import Animation from '../../components/Animation/Animation'
+import { NAME, TITLE } from '../../utils/Helper'
 
 const Home = () => {
   return (
     <div className='container'>
       <ProfileCard 
-      name="Ayushman Garg" 
-      title="Full Stack Developer"      
+      name={NAME} 
+      title={TITLE}      
       img={ProfilePic}
       />
     </div>

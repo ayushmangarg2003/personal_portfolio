@@ -16,15 +16,15 @@ const App = () => {
     });
     return (
         <div className='app'>
-            <div data-aos="fade-down" data-aos-duration="800" className="section">
+            <div data-aos="fade-down" data-aos-duration="800" className="HomeSection">
                 <Home />
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400" className="section">
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400" className="AboutSection">
                 <About />
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400" className="section">
+            <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400" className="CerSection">
                 <Certificates />
             </div>
 

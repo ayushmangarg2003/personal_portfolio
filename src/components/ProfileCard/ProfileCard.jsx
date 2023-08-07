@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
+import { CV, GITHUB, LINKEDIN, MAIL, TWITTER } from '../../utils/Helper';
 
 
 const ProfileCard = (props) => {
@@ -15,21 +16,21 @@ const ProfileCard = (props) => {
         <div className="name">{props.name}</div>
         <div className="title" >{props.title}</div>
         <div className="socials">
-          <a href={'https://www.linkedin.com/in/ayushmangarg/'} target={'blank'} className='linkedin'>
+          <a href={LINKEDIN} target={'blank'} className='linkedin'>
             <FaLinkedin />
           </a>
-          <a href={'https://twitter.com/AyushmanGarg4'} target={'blank'} className='twitter'>
+          <a href={TWITTER} target={'blank'} className='twitter'>
             <FaTwitter />
           </a>
-          <a href={'https://github.com/ayushmangarg2003'} target={'blank'} className='github'>
+          <a href={GITHUB} target={'blank'} className='github'>
             <FaGithub />
           </a>
-          <a href={'https://mail.google.com/mail/u/0/?fs=1&to=ayushmangarg929@gmail.com&tf=cm'} target={'blank'} className='mail'>
+          <a href={MAIL} target={'blank'} className='mail'>
             <FaRegEnvelope />
           </a>
         </div>
         <div className="button">
-          <a href="https://drive.google.com/file/d/1N8cepY8JzpBu1MXBFNoTiL-QNwvdESJ1/view?usp=sharing" target={'blank'} className="btn">Resume</a>
+          <a href={CV} target={'blank'} className="btn">Resume</a>
         </div>
       </div>
     </>

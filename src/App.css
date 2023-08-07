@@ -5,23 +5,34 @@
 }
 
 .app {
-    background-color: #020202;
+    background-color: #050505;
     color: #fff;
 }
 
-.section {
+.CerSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 110vh;
+}
+.AboutSection {
     max-width: 1300px;
     margin: 0 auto;
     height: 100vh;
 }
-
+.HomeSection{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+}
 .ProjectSection {
     max-width: 1300px;
     margin: 0 auto;
 }
-
-@media only screen and (max-width:500px) {
-    .ProjectSection {
-        margin: 10vh 0;
+@media only screen and (max-width:425px){
+    .AboutSection {
+        height: 110vh;
+    }
+    .CerSection{
+        height: auto;
     }
 }

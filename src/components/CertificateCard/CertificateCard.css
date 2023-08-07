@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0.5rem auto;
     transition: 0.3s ease;
     text-decoration: none;
-    gap: 1.9rem;
+    gap: 1rem;
     &:hover {
         transform: translateY(-10px);
     }
@@ -53,5 +53,16 @@
     }
     .CertificateContainer .right .subtitle {
         font-size: 14px;
+    }
+  }
+@media only screen and (max-width:450px){
+    .CertificateContainer .right .title {
+        font-size: 14px;
+    }
+    .CertificateContainer .right .subtitle {
+        font-size: 12px;
+    }
+    .CertificateContainer{
+        margin: 0 auto;
     }
   }

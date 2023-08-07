@@ -16,5 +16,6 @@
 @media only screen and (max-width:550px) {
     .details {
         font-size: 1rem;
+        line-height: 1.3rem;
     }
 }
