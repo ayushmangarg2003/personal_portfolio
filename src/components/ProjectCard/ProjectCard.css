@@ -25,6 +25,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .title {
@@ -71,37 +75,39 @@
 }
 
 @media only screen and (max-width:750px) {
-    .desc {
-        display: none;
+    .card {
+        flex-direction: column-reverse;
     }
 
     .card .left {
-        flex: 3;
+        text-align: center;
     }
 
-    .left .tags div {
-        padding: 0.25rem 0.5rem;
-        font-weight: 400;
-        font-size: 12px;
+    .card .left .tags {
+        justify-content: center;
     }
 }
 
-@media only screen and (max-width:700px) {
-    .card {
-        width: 95%;
+@media only screen and (max-width:550px) {
+    .card .left {
+        gap: 1rem;
     }
 
     .card .left .title {
-        font-size: 1rem;
+        font-size: 24px;
+    }
+
+    .card .left .desc {
+        font-size: 16px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
     }
 }
-
-@media only screen and (max-width:470px) {
-    .card {
-        padding: 0;
-        margin: 0;
-    }
+@media only screen and (max-width:400px) {
     .card .left .title {
-        font-size: 0.85rem;
+        font-size: 20px;
     }
 }

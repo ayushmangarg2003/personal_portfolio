@@ -27,7 +27,7 @@ const Projects = [
         desc: "Web Agent is a website of a fictional web agency created using ReactJs and its component library 'Styled Components'. ",
         githubLink: "https://github.com/ayushmangarg2003/web-agent-react-styled-components",
         demoLink: "https://web-agent-react-styled-components.vercel.app/",
-        tags: ["ReactJS", "Styled Components"]
+        tags: ["ReactJS", "Styled Comp."]
     },
     {
         title: "TravelArc",
