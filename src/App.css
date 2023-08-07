@@ -1,18 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.app{
+
+.app {
     background-color: #020202;
     color: #fff;
 }
-.section{
+
+.section {
     max-width: 1300px;
     margin: 0 auto;
     height: 100vh;
 }
-.ProjectSection{
+
+.ProjectSection {
     max-width: 1300px;
-    margin: 0 auto;   
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:500px) {
+    .ProjectSection {
+        margin: 10vh 0;
+    }
 }
