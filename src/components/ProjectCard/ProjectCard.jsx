@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   return (
     <div className="card">
       <div className="left">
-        <div className="title">{props.title}<a href={props.demoLink} target={'blank'}>
+        <div className="title">{props.title}<a href={props.githubLink} target={'blank'}>
           <span>
           <FaGithub /> 
           </span>

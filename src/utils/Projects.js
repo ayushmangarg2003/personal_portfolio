@@ -18,7 +18,7 @@ const Projects = [
         title: "Crypto Exchange",
         image: crypto,
         desc: "A project utilizing ReactJs and its component library, Chakra UI, was developed with an API-based approach. It enables users to track the real-time pricing of various cryptocurrencies.",
-        githubLink: "",
+        githubLink: "https://github.com/ayushmangarg2003/crypto-exchange-react-app",
         demoLink: "https://crypto-exchange-react-app.vercel.app/",
         tags: ["ChakraUi","ReactJs","API"]
     },
