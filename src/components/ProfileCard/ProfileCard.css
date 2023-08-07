@@ -8,10 +8,10 @@
     align-items: center;
     border-radius: 58% 42% 35% 65% / 69% 57% 43% 31% ;
     animation-name: floatingv , boranimation;
-    animation-duration: 6s , 12s , 4s;
+    animation-duration: 5s , 12s;
     margin: 10px;
     animation-iteration-count: infinite , infinite;
-    animation-timing-function: ease , ease-in-out;
+    animation-timing-function: ease-in-out , ease-in-out;
 }
 @keyframes floatingv {
     0% { transform: translate(0,  0px); }

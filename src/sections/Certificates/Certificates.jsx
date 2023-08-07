@@ -16,7 +16,7 @@ const Certificates = () => {
 });
   return (
     <div className='certificateParent'>
-      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="400" className="techstack">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600" className="techstack">
         <SubHeader heading='Tech Stack' />
         <div className="tech">
           {
