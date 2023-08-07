@@ -5,6 +5,7 @@
     opacity: 0.5;
     position: absolute;
     top: 60px;
+    z-index: -1;
     left: -120px;
     animation: square 23s linear alternate infinite;
     overflow: hidden;
@@ -21,9 +22,10 @@
     height: 100px;
     border-radius: 50%;
     background-color: rgb(255, 255, 100);
-    opacity: 0.8;
+    opacity: 0.5;
     position: absolute;
     top: 60vh;
+    z-index: -1;
     left: -100px;
     animation: circle 19s linear alternate-reverse infinite;
     overflow: hidden;
@@ -39,9 +41,10 @@
     width: 90px;
     height: 60px;
     background-color: #4e6bff;
-    opacity: 0.6;
+    opacity: 0.5;
     position: absolute;
     top: 30vh;
+    z-index: -1;
     left: -90px;
     animation: rectangle 17s linear  infinite alternate;
 }
@@ -49,17 +52,5 @@
 @keyframes rectangle {
     to {
         transform: translate(55vw, calc(70vh - 60px))
-    }
-}
-
-@media only screen and (max-width:700px) {
-    .square{
-        display: none;
-    }
-    .circle{
-        display: none;
-    }
-    .rectangle{
-        display: none;
     }
 }
