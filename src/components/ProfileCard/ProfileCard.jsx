@@ -29,7 +29,7 @@ const ProfileCard = (props) => {
           </a>
         </div>
         <div className="button">
-          <a href="https://drive.google.com/file/d/1uzEFI38uRh_IW0FNb7DNXcnEsU10lxA5/view?usp=drive_link" target={'blank'} className="btn">Resume</a>
+          <a href="https://drive.google.com/file/d/1N8cepY8JzpBu1MXBFNoTiL-QNwvdESJ1/view?usp=sharing" target={'blank'} className="btn">Resume</a>
         </div>
       </div>
     </>

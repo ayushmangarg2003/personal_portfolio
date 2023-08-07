@@ -22,14 +22,14 @@ const Projects = [
         demoLink: "https://crypto-exchange-react-app.vercel.app/",
         tags: ["ChakraUi","ReactJs","API"]
     },
-    {
-        title: "TrueBlog",
-        image: blog,
-        desc: "This is a full-stack website created using ExpressJS, ReactJS, Node.js, and MySQL as the database. It enables users to perform CRUD operations, and also includes a login/signup feature.",
-        githubLink: "https://github.com/ayushmangarg2003/Blogs_MySQL",
-        demoLink: "https://blogs-my-sql.vercel.app/",
-        tags: ["MySQL", "React Js" , "ExpressJs"]
-    },
+    // {
+    //     title: "TrueBlog",
+    //     image: blog,
+    //     desc: "This is a full-stack website created using ExpressJS, ReactJS, Node.js, and MySQL as the database. It enables users to perform CRUD operations, and also includes a login/signup feature.",
+    //     githubLink: "https://github.com/ayushmangarg2003/Blogs_MySQL",
+    //     demoLink: "https://blogs-my-sql.vercel.app/",
+    //     tags: ["MySQL", "React Js" , "ExpressJs"]
+    // },
     {
         title: "Web Agent",
         image: webagent,
