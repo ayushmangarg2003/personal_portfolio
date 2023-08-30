@@ -27,6 +27,10 @@ const TechStack = [
         tech: "ReactJs"
     },
     {
+        icon: react,
+        tech: "React Native"
+    },
+    {
         icon: node,
         tech: "NodeJs"
     },
