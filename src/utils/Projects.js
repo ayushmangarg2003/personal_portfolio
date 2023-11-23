@@ -3,8 +3,17 @@ import crypto from "./assets/CryptoExchange.png"
 import webagent from "./assets/WebAgent.png"
 import travel from "./assets/TravelArc.png"
 import myprojects from "./assets/MyProjects.png"
+import doccare from "./assets/doccare.png"
 
 const Projects = [
+    {
+        title: "DocCARE",
+        image: doccare,
+        desc: "This is a Doctor Booking website build using MERN stack and showcases my skills in making user friendly interfaces, and seamless user experience",
+        githubLink: "https://github.com/ayushmangarg2003/BookDoc",
+        demoLink: "https://book-doc.vercel.app/",
+        tags: ["MERN"]
+    },
     {
         title: "FoodGo",
         image: foodgo,
