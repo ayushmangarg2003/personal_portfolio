@@ -1,13 +1,13 @@
-import html from './assets/html.png'
-import css from './assets/css.png'
-import js from './assets/javascript.png'
-import react from './assets/react.png'
-import node from './assets/nodejs.png'
-import express from './assets/express.png'
-import mongo from './assets/mongo-db.png'
-import mysql from './assets/mysql.png'
-import python from './assets/python.png'
-import tailwind from './assets/tailwind.png'
+import html from './assets/html.webp'
+import css from './assets/css.webp'
+import js from './assets/javascript.webp'
+import react from './assets/react.webp'
+import node from './assets/nodejs.webp'
+import express from './assets/express.webp'
+import mongo from './assets/mongo-db.webp'
+import mysql from './assets/mysql.webp'
+import python from './assets/python.webp'
+import tailwind from './assets/tailwind.webp'
 
 const TechStack = [
     {

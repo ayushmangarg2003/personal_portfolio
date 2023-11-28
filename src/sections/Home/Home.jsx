@@ -1,8 +1,7 @@
 import React from 'react'
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
-import ProfilePic from '../../utils/assets/ProfilePic.jpg'
 import './Home.css'
-import { NAME, TITLE } from '../../utils/Helper'
+import { NAME, TITLE, PROFILE_PIC } from '../../utils/Helper'
 
 const Home = () => {
   return (
@@ -10,7 +9,7 @@ const Home = () => {
       <ProfileCard 
       name={NAME} 
       title={TITLE}      
-      img={ProfilePic}
+      img={PROFILE_PIC}
       />
     </div>
   )

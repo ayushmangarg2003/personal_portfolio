@@ -1,5 +1,8 @@
+// import ProfilePic from ''
+const ProfilePic = require('./assets/ProfilePic.webp')
 const NAME = 'Ayushman Garg';
 const TITLE = 'Full Stack Developer';
+const PROFILE_PIC = ProfilePic;
 const LINKTREE = "https://linktr.ee/ayushmangarg8";
 const LINKEDIN = "https://www.linkedin.com/in/ayushmangarg/";
 const TWITTER = "https://twitter.com/AyushmanGarg4";
@@ -11,5 +14,5 @@ const DETAILS_2 = "I was initially introduced to programming in school through t
 
 
 module.exports = {
-    NAME, TITLE, LINKTREE, LINKEDIN, TWITTER, GITHUB, MAIL, CV, DETAILS_1, DETAILS_2
+    NAME, TITLE, PROFILE_PIC, LINKTREE, LINKEDIN, TWITTER, GITHUB, MAIL, CV, DETAILS_1, DETAILS_2
 }

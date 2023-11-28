@@ -1,6 +1,6 @@
-import Ibm from "./assets/IBMlogo.svg"
+import Ibm from "./assets/IBMlogo.webp"
 import Gymnasium from "./assets/gymnasium.webp"
-import Mait from "./assets/MaitLogo.png"
+import Mait from "./assets/MaitLogo.webp"
 
 const Certificates = [
     {

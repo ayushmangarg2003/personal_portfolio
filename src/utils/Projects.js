@@ -1,9 +1,9 @@
-import foodgo from "./assets/FoodGo.png"
-import crypto from "./assets/CryptoExchange.png"
-import webagent from "./assets/WebAgent.png"
-import travel from "./assets/TravelArc.png"
-import myprojects from "./assets/MyProjects.png"
-import doccare from "./assets/doccare.png"
+import foodgo from "./assets/FoodGo.webp"
+import crypto from "./assets/CryptoExchange.webp"
+import webagent from "./assets/WebAgent.webp"
+import travel from "./assets/TravelArc.webp"
+import myprojects from "./assets/MyProjects.webp"
+import doccare from "./assets/doccare.webp"
 
 const Projects = [
     {
