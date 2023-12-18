@@ -15,7 +15,7 @@ const Projects = [
         tags: ["MERN"]
     },
     {
-        title: "TrueBloga",
+        title: "TrueBlogs",
         image: tureblog,
         desc: "This is a Blogging website that has been developed using MongoDB, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering various features such as Login/Signup option.",
         githubLink: "https://github.com/ayushmangarg2003/Blogs_MERN",
