@@ -1,4 +1,4 @@
-import foodgo from "./assets/FoodGo.webp"
+import tureblog from "./assets/TrueBlog.webp"
 import crypto from "./assets/CryptoExchange.webp"
 import webagent from "./assets/WebAgent.webp"
 import travel from "./assets/TravelArc.webp"
@@ -15,12 +15,12 @@ const Projects = [
         tags: ["MERN"]
     },
     {
-        title: "FoodGo",
-        image: foodgo,
-        desc: "This is a Food Delivery website that has been developed using MongoDB, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering various features such as a Shopping Cart and Login/Signup option.",
-        githubLink: "https://github.com/ayushmangarg2003/food_go_mern_frontend",
-        demoLink: "https://food-go-mern-frontend.vercel.app/",
-        tags: ["MERN" , "Bootstrap"]
+        title: "TrueBloga",
+        image: tureblog,
+        desc: "This is a Blogging website that has been developed using MongoDB, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering various features such as Login/Signup option.",
+        githubLink: "https://github.com/ayushmangarg2003/Blogs_MERN",
+        demoLink: "https://blogs-mern-pi.vercel.app/",
+        tags: ["MERN"]
     },
     {
         title: "Crypto Exchange",
